@@ -1,7 +1,12 @@
 /* Flexbox Part 1 */
 
 #flex-section1 ul {
-
+display: flex;
+margin: auto;
+padding: auto;
+list-style-type: none;
+justify-content: space-between;
+align-items: center;
 }
 
 /* end Flexbox Part 1 */
