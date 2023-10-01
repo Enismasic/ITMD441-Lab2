@@ -15,23 +15,27 @@ align-items: center;
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-
+display:flex;
+margin:auto;
+padding:0%;
+list-style-type:none ;
 }
 
 #flex-section2 li {
-
+	position: relative;
 }
 
 #flex-section2 .item1 {
-
+	width: 140%;
+	order: 1;
 }
 
 #flex-section2 .item2 {
-
+	order: 3;
 }
 
 #flex-section2 .item3 {
-
+	order: 2;
 }
 
 /* end Flexbox Part 2 */
