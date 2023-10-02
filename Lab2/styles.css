@@ -67,6 +67,10 @@ list-style-type:none ;
 
 #grid-section1 .grid {
 
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px;
+	grid-auto-rows: 100px;
+	
 }
 
 /* end Grid Part 1 */
@@ -75,11 +79,15 @@ list-style-type:none ;
 /* Grid Part 2 */
 
 #grid-section2 .gridboxblue {
+	position: relative;
+	grid-column: 2 / span 2; /* Start at column 2 and span 2 columns */
+	grid-row: 1 / span 3;
 
 }
 
 #grid-section2 .gridboxred {
-
+	grid-column: 1 / span 2; /* Start at column 2 and span 2 columns */
+	grid-row: 2 / span 1;
 }
 
 /* end Grid Part 2 */
