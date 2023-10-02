@@ -1,10 +1,10 @@
 /* Flexbox Part 1 */
 
 #flex-section1 ul {
-display: flex;
+display: flex; 
 margin: auto;
 padding: auto;
-list-style-type: none;
+list-style-type: none; 
 justify-content: space-between;
 align-items: center;
 }
@@ -81,12 +81,12 @@ list-style-type:none ;
 #grid-section2 .gridboxblue {
 	position: relative;
 	grid-column: 2 / span 2; /* Start at column 2 and span 2 columns */
-	grid-row: 1 / span 3;
+	grid-row: 1 / span 3; /* Start at column 1 and span 3 columns */
 
 }
 
 #grid-section2 .gridboxred {
-	grid-column: 1 / span 2; /* Start at column 2 and span 2 columns */
+	grid-column: 1 / span 2; 
 	grid-row: 2 / span 1;
 }
 
